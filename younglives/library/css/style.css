@@ -802,8 +802,10 @@ HEADER STYLES
 .header {
   background-color: #4E2F91; }
 
-#logo a {
-  color: white; }
+#logo {
+  margin: 0; }
+  #logo a {
+    color: white; }
 
 #younglives-logo {
   float: right; }
@@ -835,6 +837,8 @@ and more scalable.
   /* end .menu li */
   /* highlight current page */
   /* end current highlighters */ }
+  .nav ul {
+    margin-top: 5px; }
   .nav li {
     /*
     so you really have to rethink your dropdowns for mobile.

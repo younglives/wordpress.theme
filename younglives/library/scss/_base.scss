@@ -152,9 +152,12 @@ HEADER STYLES
 
 .header {background-color: #4E2F91;}
 
-	#logo a {
+#logo {
+    margin:0;
+    a {
         color:white;
     }
+}
 
 #younglives-logo {
     float:right;
@@ -189,6 +192,7 @@ and more scalable.
 	border: 1px solid #ccc;
 	border-bottom: 0;
     background-color: #4E2F91 !important;
+    ul {margin-top:5px;}
 
 	li {
 

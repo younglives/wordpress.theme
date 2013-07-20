@@ -51,7 +51,8 @@
 					    <img src="<?php echo get_template_directory_uri(); ?>/logo.png" />
 					</div>
 					<p id="logo" class="h1"><a href="<?php echo home_url(); ?>" rel="nofollow">
-					    <?php bloginfo('name'); ?></a>
+					    <!--<?php bloginfo('name'); ?></a>-->
+					    The Child Poverty <br />and Development blog</a>
 					</p>
 
 					<nav role="navigation">
