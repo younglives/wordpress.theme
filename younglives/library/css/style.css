@@ -802,11 +802,15 @@ HEADER STYLES
 .header {
   background-color: #4E2F91; }
 
-#logo {
-  height: 81px;
-  width: 300px;
-  background: url("../../logo.png") no-repeat;
-  margin: 10px 0; }
+#logo a {
+  color: white; }
+
+#younglives-logo {
+  float: right; }
+  #younglives-logo img {
+    height: 81px;
+    width: 300px;
+    margin: 10px 0; }
 
 #banner-container {
   background-color: black; }
