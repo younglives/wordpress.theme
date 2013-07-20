@@ -53,7 +53,11 @@
 					<nav role="navigation">
 						<?php bones_main_nav(); ?>
 					</nav>
-
 				</div> <!-- end #inner-header -->
 
 			</header> <!-- end header -->
+			<div id="banner-container">
+			    <div id="banner">
+    		        <img src="<?php echo get_template_directory_uri(); ?>/library/images/banner-image-narrow.jpg" />
+    		    </div>
+		    </div>

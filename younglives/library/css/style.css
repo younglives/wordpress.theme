@@ -808,6 +808,12 @@ HEADER STYLES
   background: url("../../logo.png") no-repeat;
   margin: 10px 0; }
 
+#banner-container {
+  background-color: black; }
+  #banner-container #banner {
+    text-align: center;
+    height: 150px; }
+
 /*********************
 NAVIGATION STYLES
 *********************/
