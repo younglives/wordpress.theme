@@ -1,5 +1,13 @@
 			<footer class="footer" role="contentinfo">
 
+			    <div id="quote-wrapper">
+                    <div id="quote">
+                        <blockquote>
+                            <em>We need to end child poverty in order to break the cycle of poverty.</em>
+                         </blockquote>
+                    </div>
+                </div>
+
 				<div id="inner-footer" class="wrap clearfix">
 
 					<nav role="navigation">
@@ -19,4 +27,4 @@
 
 	</body>
 
-</html> <!-- end page. what a ride! -->
+</html>
