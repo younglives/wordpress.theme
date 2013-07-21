@@ -877,7 +877,7 @@ POSTS & CONTENT STYLES
 *********************/
 #content {
   margin-top: 2.2em;
-  padding-bottom: 60px; }
+  padding-bottom: 120px; }
 
 /* end .hentry */
 /* want to style individual post classes? Booya! */
@@ -1143,13 +1143,30 @@ SIDEBARS & ASIDES
 .widget ul li {
   /* deep nesting */ }
 
+#quote-wrapper {
+  width: 100%;
+  background: none repeat scroll 0 0 #FBFAF5;
+  border-top: 2px solid #F1EDDF;
+  clear: both;
+  color: #5F5F5F;
+  font-size: 1.29em;
+  font-weight: bold;
+  overflow: hidden;
+  padding: 10px 0; }
+
+#quote-wrapper blockquote {
+  background: url(../images/left-quote.png) no-repeat scroll right bottom transparent;
+  display: inline;
+  font-style: italic;
+  padding-right: 20px; }
+
 /*********************
 FOOTER STYLES
 *********************/
 .footer {
   clear: both;
   background-color: #4e2f91;
-  height: 60px;
+  height: 120px;
   position: absolute;
   width: 100%;
   left: 0;
