@@ -689,11 +689,19 @@ and will be used across all viewports.
 /*********************
 GENERAL STYLES
 *********************/
+html {
+  height: 100%; }
+
 body {
   font-family: "Georgia", Cambria, Times New Roman, Times, serif;
   font-size: 100%;
   line-height: 1.5;
-  color: #565656; }
+  color: #565656;
+  height: 100%; }
+
+#container {
+  min-height: 100%;
+  position: relative; }
 
 /********************
 WORDPRESS BODY CLASSES
@@ -800,7 +808,7 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 .header {
-  background-color: #4E2F91; }
+  background-color: #4e2f91; }
 
 #logo {
   margin: 0; }
@@ -833,7 +841,7 @@ and more scalable.
 .nav {
   border: 1px solid #ccc;
   border-bottom: 0;
-  background-color: #4E2F91 !important;
+  background-color: #4e2f91 !important;
   /* end .menu li */
   /* highlight current page */
   /* end current highlighters */ }
@@ -868,7 +876,8 @@ and more scalable.
 POSTS & CONTENT STYLES
 *********************/
 #content {
-  margin-top: 2.2em; }
+  margin-top: 2.2em;
+  padding-bottom: 60px; }
 
 /* end .hentry */
 /* want to style individual post classes? Booya! */
@@ -953,11 +962,11 @@ PAGE NAVI STYLES
       text-decoration: none;
       position: relative; }
       .bones_page_navi li a:hover, .bones_page_navi li a:focus {
-        color: #4E2F91;
+        color: #4e2f91;
         text-decoration: underline; }
   .bones_page_navi li.bpn-current {
     padding: 3px 6px;
-    border-bottom: 2px solid #4E2F91;
+    border-bottom: 2px solid #4e2f91;
     position: relative; }
     .bones_page_navi li.bpn-current a {
       /* hovering on current page link */ }
@@ -1138,7 +1147,13 @@ SIDEBARS & ASIDES
 FOOTER STYLES
 *********************/
 .footer {
-  clear: both; }
+  clear: both;
+  background-color: #4e2f91;
+  height: 60px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0; }
 
 /*
 if you checked out the link above:

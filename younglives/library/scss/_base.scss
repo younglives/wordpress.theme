@@ -15,13 +15,20 @@ and will be used across all viewports.
 GENERAL STYLES
 *********************/
 
+html {height: 100%;}
+
 body {
 	font-family: $serif;
 	font-size: 100%;
 	line-height: 1.5;
 	color: #565656;
+    height: 100%;
 }
 
+#container {
+    min-height:100%;
+    position:relative;
+}
 /********************
 WORDPRESS BODY CLASSES
 style a page via class
@@ -150,7 +157,7 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 
-.header {background-color: #4E2F91;}
+.header {background-color: $younglives-purple;}
 
 #logo {
     margin:0;
@@ -191,7 +198,7 @@ and more scalable.
 .nav {
 	border: 1px solid #ccc;
 	border-bottom: 0;
-    background-color: #4E2F91 !important;
+    background-color: $younglives-purple !important;
     ul {margin-top:5px;}
 
 	li {
@@ -268,6 +275,7 @@ POSTS & CONTENT STYLES
 
 #content {
 	margin-top: 2.2em;
+    padding-bottom:60px;
 }
 
 		.hentry {
@@ -443,7 +451,7 @@ PAGE NAVI STYLES
 
 				&:hover,
 				&:focus {
-					color: #4E2F91;
+					color: $younglives-purple;
 					text-decoration: underline;
 				}
 			}
@@ -453,7 +461,7 @@ PAGE NAVI STYLES
 		/* current page link */
 		li.bpn-current {
 			padding: 3px 6px;
-			border-bottom: 2px solid #4E2F91;
+			border-bottom: 2px solid $younglives-purple;
 			position: relative;
 
 			a {
@@ -836,6 +844,12 @@ FOOTER STYLES
 
 .footer {
 	clear: both;
+    background-color:$younglives-purple;
+    height: 60px;
+    position:absolute;
+    width:100%;
+    left:0;
+    bottom:0;
 }
 
 	/*
