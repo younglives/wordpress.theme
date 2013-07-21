@@ -1,7 +1,7 @@
 			<footer class="footer" role="contentinfo">
 
-			    <div id="quote-wrapper" class="wrap">
-                    <div id="quote">
+			    <div id="quote-wrapper">
+                    <div id="quote" class="wrap">
                         <blockquote>
                             <i class="icon-quote-left"></i>
                             <em>We need to end child poverty in order to break the cycle of poverty.</em>

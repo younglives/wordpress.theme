@@ -1153,7 +1153,12 @@ SIDEBARS & ASIDES
   font-size: 1.29em;
   font-weight: bold;
   overflow: hidden;
-  padding: 10px 0; }
+  padding: 10px 0;
+  text-align: center; }
+  #quote-wrapper blockquote {
+    margin: 0; }
+  #quote-wrapper i {
+    color: #AAAAAA; }
 
 /*********************
 FOOTER STYLES
