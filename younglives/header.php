@@ -63,6 +63,6 @@
 			</header> <!-- end header -->
 			<div id="banner-container">
 			    <div id="banner">
-    		        <img src="<?php echo get_template_directory_uri(); ?>/library/images/banner-image-narrow.jpg" />
+    		        <img src="<?php echo get_template_directory_uri(); ?>/library/images/banner.jpg" />
     		    </div>
 		    </div>
