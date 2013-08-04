@@ -11,11 +11,11 @@
                 </div>
 
 				<div id="inner-footer" class="wrap clearfix">
-
-					<nav role="navigation">
-							<?php bones_footer_links(); ?>
-									</nav>
-
+                    Young Lives<br/>
+                    Oxford Department of International Development (ODID)<br/>
+                    University of Oxford, Queen Elizabeth House<br/>
+                    3 Mansfield Road, Oxford OX1 3TB, UK<br/>
+                    www.younglives.org.uk<br/>
 					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> Young Lives.</p>
 
 				</div> <!-- end #inner-footer -->
