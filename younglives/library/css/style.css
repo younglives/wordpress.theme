@@ -690,19 +690,11 @@ and will be used across all viewports.
 /*********************
 GENERAL STYLES
 *********************/
-html {
-  height: 100%; }
-
 body {
   font-family: "Georgia", Cambria, Times New Roman, Times, serif;
   font-size: 100%;
   line-height: 1.5;
-  color: #565656;
-  height: 100%; }
-
-#container {
-  min-height: 100%;
-  position: relative; }
+  color: #565656; }
 
 /********************
 WORDPRESS BODY CLASSES
@@ -877,8 +869,7 @@ and more scalable.
 POSTS & CONTENT STYLES
 *********************/
 #content {
-  margin-top: 2.2em;
-  padding-bottom: 120px; }
+  margin-top: 2.2em; }
 
 /* end .hentry */
 /* want to style individual post classes? Booya! */
@@ -1166,11 +1157,8 @@ FOOTER STYLES
 .footer {
   clear: both;
   background-color: #4e2f91;
-  height: 120px;
-  position: absolute;
   width: 100%;
-  left: 0;
-  bottom: 0; }
+  color: white; }
 
 /*
 if you checked out the link above:

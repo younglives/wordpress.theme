@@ -15,20 +15,13 @@ and will be used across all viewports.
 GENERAL STYLES
 *********************/
 
-html {height: 100%;}
-
 body {
 	font-family: $serif;
 	font-size: 100%;
 	line-height: 1.5;
 	color: #565656;
-    height: 100%;
 }
 
-#container {
-    min-height:100%;
-    position:relative;
-}
 /********************
 WORDPRESS BODY CLASSES
 style a page via class
@@ -275,7 +268,6 @@ POSTS & CONTENT STYLES
 
 #content {
 	margin-top: 2.2em;
-    padding-bottom:120px;
 }
 
 		.hentry {
@@ -858,13 +850,10 @@ FOOTER STYLES
 *********************/
 
 .footer {
-	clear: both;
+	clear:both;
     background-color:$younglives-purple;
-    height: 120px;
-    position:absolute;
     width:100%;
-    left:0;
-    bottom:0;
+    color:white;
 }
 
 	/*
