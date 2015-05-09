@@ -1,0 +1,5 @@
+Upgrade
+
+Css style for ul and ol inserted into header.php.
+
+list-style-type and padding being overwritten style.css line 460
